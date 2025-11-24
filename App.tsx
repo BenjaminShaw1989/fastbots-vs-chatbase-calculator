@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calculator } from './components/Calculator';
+import { FAQ } from './components/FAQ'; // <--- 这里引入了新零件
 
 export default function App() {
   return (
@@ -14,9 +15,13 @@ export default function App() {
           </p>
         </div>
         
+        {/* 计算器组件 */}
         <Calculator />
         
-        <div className="text-center text-sm text-gray-400 mt-8">
+        {/* 新增的 FAQ 组件放在这里 */}
+        <FAQ />
+        
+        <div className="text-center text-sm text-gray-400 mt-8 pb-8">
           *Pricing data based on publicly available information as of Jan 2025.
         </div>
       </div>
