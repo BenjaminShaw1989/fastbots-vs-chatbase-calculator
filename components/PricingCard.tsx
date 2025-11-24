@@ -61,11 +61,11 @@ export const PricingCard: React.FC<PricingCardProps> = ({
       {/* CTA */}
       <div>
         {isHero ? (
-          <a href="#" className="w-full block bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-6 rounded-lg text-center transition-colors shadow-lg shadow-emerald-200">
+          <a href="https://fastbots.ai/?via=benjamin" className="w-full block bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-6 rounded-lg text-center transition-colors shadow-lg shadow-emerald-200">
             Switch & Save
           </a>
         ) : (
-          <a href="#" className="w-full block bg-gray-50 hover:bg-gray-100 text-gray-400 font-semibold py-3.5 px-6 rounded-lg text-center transition-colors border border-gray-200">
+          <a href="https://www.chatbase.co" className="w-full block bg-gray-50 hover:bg-gray-100 text-gray-400 font-semibold py-3.5 px-6 rounded-lg text-center transition-colors border border-gray-200">
             Visit Website
           </a>
         )}
