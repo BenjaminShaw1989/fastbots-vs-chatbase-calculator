@@ -23,6 +23,18 @@ export default function App() {
         
         <div className="text-center text-sm text-gray-400 mt-8 pb-8">
           *Pricing data based on publicly available information as of Jan 2025.
+          {/* Dang.ai 徽章 (用于交换外链) */}
+        <div className="mt-6 flex justify-center pb-8">
+          <a href="https://dang.ai/" target="_blank" rel="noopener noreferrer">
+            <img 
+              src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png" 
+              alt="Dang.ai" 
+              style={{ width: '150px', height: '54px' }} 
+              width="150" 
+              height="54" 
+            />
+          </a>
+        </div>
         </div>
       </div>
     </div>
